@@ -1,4 +1,4 @@
 To run, need to install 
 
-brew install sshpass
-brew install ansible
+1. brew install sshpass
+2. brew install ansible
