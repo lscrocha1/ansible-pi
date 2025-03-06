@@ -1,0 +1,6 @@
+- name: Shutdown Raspberry Pi Cluster
+  hosts: raspberry_pi
+  tasks:
+    - name: Shutdown the Raspberry Pi Cluster
+      ansible.builtin.command:
+        cmd: sudo shutdown -h now
